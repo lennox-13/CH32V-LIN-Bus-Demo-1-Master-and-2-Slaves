@@ -114,6 +114,10 @@ All three LIN transceiver modules are connected together:
 - Both slave nodes run from the internal **48 MHz** clock
 - This project is intended as a compact practical example for learning and testing LIN communication
 
+> [!IMPORTANT]
+> On the **master LIN transceiver module**, the onboard **LM7805 regulator must be replaced with a 3.3 V version**, because the **CH32V203 is not 5 V tolerant**.  
+> Alternatively, use a **logic level shifter** on the **RX and TX lines**.
+
 ---
 
 ## Project purpose
