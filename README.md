@@ -20,14 +20,14 @@ Each slave reads a push button and drives its local LED. The master reads both s
 
 ## System Overview
 
-### Real LIN modules used in the test
+### TJA1021 LIN modules used in the test
 ![LIN modules and bus wiring](docs/images/Modules.jpg)
 
 ### Block diagram
 ![Block diagram](docs/images/Block_Diagram.png)
 
 ### Real bench test setup
-![Bench setup](docs/images/Test_Bench.jpg)
+![Bench setup](docs/images/Test_Bench.JPG)
 
 ---
 
