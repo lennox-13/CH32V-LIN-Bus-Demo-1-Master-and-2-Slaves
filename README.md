@@ -44,6 +44,9 @@ Each slave reads a push button and drives its local LED. The master reads both s
   - updates:
     - **PA1** for Slave 1
     - **PA0** for Slave 2
+   
+### LIN frame
+![LIN frame](docs/images/lin4.jpg)
 
 ### Logic summary
 
