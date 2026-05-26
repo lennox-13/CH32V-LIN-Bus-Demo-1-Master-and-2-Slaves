@@ -26,7 +26,7 @@ Each slave reads a push button and drives its local LED. The master reads both s
 ### Block diagram
 ![Block diagram](docs/images/Block_Diagram.png)
 
-### Real bench test setup
+### Bench test setup :)
 ![Bench setup](docs/images/Test_Bench.JPG)
 
 ---
