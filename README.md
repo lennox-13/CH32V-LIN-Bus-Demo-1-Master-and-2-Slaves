@@ -21,13 +21,13 @@ Each slave reads a push button and drives its local LED. The master reads both s
 ## System Overview
 
 ### Real LIN modules used in the test
-![LIN modules and bus wiring](docs/images/lin_modules_wiring.jpg)
+![LIN modules and bus wiring](docs/images/Modules.jpg)
 
 ### Block diagram
-![Block diagram](docs/images/lin_block_diagram.png)
+![Block diagram](docs/images/Block_Diagram.png)
 
 ### Real bench test setup
-![Bench setup](docs/images/lin_bench_setup.jpg)
+![Bench setup](docs/images/Test_Bench.jpg)
 
 ---
 
