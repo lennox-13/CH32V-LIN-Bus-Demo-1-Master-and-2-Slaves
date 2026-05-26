@@ -120,6 +120,13 @@ All three LIN transceiver modules are connected together:
 
 ---
 
+> [!TIP]
+> This project can also be extended to **bidirectional control**.  
+> If two push buttons are added to the **master node** (for example on **PA4** and **PA5**), the master can not only read button states from both slaves, but also **control the slave LEDs** over LIN.  
+> Source code for this variant is provided in a **separate directory**, so it can be tested as an alternative version of the demo.
+
+---
+
 ## Project purpose
 
 This repository is an example of:
