@@ -97,6 +97,38 @@ All three LIN transceiver modules are connected together:
 
 ---
 
+## Build (MounRiver Studio)
+
+This project was developed with **MounRiver Studio**.
+
+### Import
+
+1. Open **MounRiver Studio**
+2. Go to **File → Import... → Existing Projects into Workspace**
+3. Select the repository folder
+4. Import the projects for:
+   - the **Master** (CH32V203)
+   - **Slave_1** (CH32V003)
+   - **Slave_2** (CH32V003)
+
+> [!NOTE]
+> There are two variants in this repository:
+>
+> - `Unidirectional_LIN_Communication/` (master reads slave button state)
+> - `Bidirectional_LIN_Communication/` (optional extension where the master can also control slave LEDs)
+>
+> Import/build the variant you want to test.
+
+### Build
+
+- Select the desired project (Master/Slave) and click **Build**.
+
+### Flash
+
+- Flash each project to its target MCU using your preferred tool (for example **WCH-LinkE**).
+
+---
+
 ## Hardware used
 
 - 1× **CH32V203** board as LIN master
@@ -125,7 +157,7 @@ All three LIN transceiver modules are connected together:
 
 > [!TIP]
 > This project can also be extended to **bidirectional control**.  
-> If two push buttons are added to the **master node** (for example on **PA4** and **PA5**), the master can not only read button states from both slaves, but also **control the slave LEDs** over LIN.  
+> If two push buttons are added to the **master node** (for example on **PA4** and **PA5**), the master can not only read button states from both slaves, but also **control the slave LEDs** over the LIN bus.
 > Source code for this variant is provided in a **separate directory**, so it can be tested as an alternative version of the demo.
 
 ---
